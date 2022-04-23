@@ -4,12 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+
+    <!-- owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
+
     <title>Netflix</title>
   </head>
+
   <body>
+    <!-- NAVBAR-->
     <header>
       <div class="container">
-        <h2 class="logo">VER PARTE 4</h2>
+        <h2 class="logo">NETFLIX</h2>
         <nav>
           <a href="#">Início</a>
           <a href="#">Séries</a>
@@ -18,5 +26,72 @@
         </nav>
       </div>
     </header>
+
+    <!-- MAIN MOVIE-->
+    <main>
+      <div class="main-movie">
+        <div class="container">
+          <h3 class="title">HOUSE OF CARDS</h3>
+          <p class="description">
+            A Congressman works with his equally conniving wife to exact revenge
+            on the people who betrayed him.
+          </p>
+          <div class="btn-container">
+            <button role="button" class="btn">
+              <i class="fas fa-play"></i>
+              WATCH NOW
+            </button>
+            <button role="button" class="btn">
+              <i class="fas fa-info-circle"></i>
+              MORE INFO
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- CAROUSEL-->
+    <div class="carousel-movie">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-movie" src="images/mini1.jpg" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="images/mini2.jpg" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="images/mini3.jpg" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="images/mini4.jpg" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="images/mini5.jpg" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="images/mini6.jpg" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="images/mini7.jpg" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="images/mini8.jpg" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="images/mini9.jpg" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="images/mini10.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/3749ef9890.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
   </body>
 </html>
